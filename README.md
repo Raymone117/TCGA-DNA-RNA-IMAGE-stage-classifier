@@ -1,7 +1,7 @@
 # TCGA-DNA-RNA-IMAGE-stage-classifier
 Capstone-5703
 
-This part focuses on the DNA modality in the TCGA stage classification project.
+DNA: This part focuses on the DNA modality in the TCGA stage classification project.
 Trained using XGBoost with tuned hyperparameters
 Achieved test accuracy = 0.607, macro F1 = 0.426
 Added validation and test confusion matrices for performance visualization
