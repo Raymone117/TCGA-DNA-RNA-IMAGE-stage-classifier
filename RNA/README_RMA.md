@@ -52,9 +52,8 @@ RNA/
 
 | Dataset   | Accuracy | Macro F1 | Weighted F1 |
 |-----------|----------|----------|-------------|
-| Validation Set | 0.73     | 0.58     | 0.72        |
-| Test Set       | 0.71     | 0.51     | 0.65        |
-| After Fusion   | 0.75     | 0.60     | 0.69        |
+| Validation Set | 0.74     | 0.54     | 0.72        |
+| Test Set       | 0.67     | 0.51     | 0.66        |
 
 ## Recommended Execution Order
 
