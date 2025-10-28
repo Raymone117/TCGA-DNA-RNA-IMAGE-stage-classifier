@@ -19,7 +19,7 @@ RNA/
 │   ├── RNA_scaler.pkl          # Saved StandardScaler
 │   ├── RNA_selector_kbest.pkl  # Saved SelectKBest feature selector
 │   ├── RNA_test.h5ad           # Processed RNA test set
-│   └── test_metadata.csv       # Metadata file with stage labels
+├ ── test_metadata.csv       # Metadata file with stage labels
 ```
 
 ## Module Descriptions
