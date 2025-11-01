@@ -13,11 +13,11 @@ Output: trained model (.pkl) and confusion matrices (.png)
 
 
 WSI: This part focuses on the Image modality in the TCGA stage classification project.
-Trained using Random Forest with tuned hyperparameters
-Achieved validation accuracy = 0.634, macro F1 = 0.474
-Added validation confusion matrices for performance visualization
-Applied class-weighting to automatically address class imbalance
-All random seeds fixed (RS = 42) to ensure consistent results
-randomwlak client updated to support the new model structure
-Main script: WSI/Train/wsi_randomwalk.ipynb
-output: stage_classifier (.pkl) , feat_cols (.pkl) and scaler (.pkl)
+Trained using Random Forest with tuned hyperparameters.
+Achieved validation accuracy = 0.634, macro F1 = 0.474.
+Added validation confusion matrices for performance visualization.
+Applied class-weighting to automatically address class imbalance.
+All random seeds fixed (RS = 42) to ensure consistent results.
+randomwlak client updated to support the new model structure.
+Main script: WSI/Train/wsi_randomwalk.ipynb.
+output: stage_classifier (.pkl) , feat_cols (.pkl) and scaler (.pkl).
