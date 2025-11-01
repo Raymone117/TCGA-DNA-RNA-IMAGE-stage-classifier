@@ -1,15 +1,10 @@
 # TCGA-DNA-RNA-IMAGE-stage-classifier
 Capstone-5703
 
-DNA: This part focuses on the DNA modality in the TCGA stage classification project.
-Trained using XGBoost with tuned hyperparameters
-Achieved test accuracy = 0.607, macro F1 = 0.426
-Added validation and test confusion matrices for performance visualization
-Applied Stage III weight = 1.3 to address class imbalance
-All random seeds fixed (RS = 192) to ensure consistent results
-Client 2.0 updated to support the new model structure
-Main script: DNA/Train/DNA_XGBOOST5.0.py
-Output: trained model (.pkl) and confusion matrices (.png)
+DNA: This module focuses on the DNA modality for TCGA stage classification. The CNV data is preprocessed, feature-selected, and trained using an optimized XGBoost classifier, achieving test accuracy = 0.607 and macro F1 = 0.426.
+The Train/ directory contains the training scripts, confusion-matrix visualizations, and the exported model (final_model.pkl).
+The Client/ directory provides an updated federated learning client that connects to the central Flower server, evaluates the model locally, and uploads prediction results with modality-specific weighting.
+Together, these components form the DNA branch of the multi-modal TCGA stage classification framework.
 
 
 WSI: This part focuses on the Image modality in the TCGA stage classification project.
